@@ -1,9 +1,33 @@
-.tex-style{
-    color:black;
-    letter-spacing:10px;
-    word-spacing:15px;
-    word-spacing:15px;
-    text-decoration: underline;
-    text-align: center;
-    font-size:60px;
-}
+.text-style{
+    color: green;
+    letter-spacing: 10px;
+    word-spacing: 15px;
+    text-decoration: line-through;
+    text-align: justify;
+    font-size: 40px;
+    font-family: "roboto";
+    
+    }
+    @font-face {
+        font-family: 'roboto';
+        src: url('./Font/RobotoCondensed-Regular.ttf');
+    }
+    a{
+        color: blue;
+    }
+    a:link{
+        color: aqua;
+    }
+    a:visited{
+        color: black;
+    }
+    a:hover{
+        color: brown;
+    }
+    a:active{
+        color: azure;
+    }
+    .slider-paragraph{background-color:aqua; font-size: 50PX;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:aqua;
+            padding:  20px;}

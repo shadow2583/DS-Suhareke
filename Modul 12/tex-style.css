@@ -27,7 +27,20 @@
     a:active{
         color: azure;
     }
+    td, th{
+        border: 1px solid;
+    }
     .slider-paragraph{background-color:aqua; font-size: 50PX;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color:aqua;
             padding:  20px;}
+            table tbody>tr:nth-child(odd)
+            {
+                background-color: darkgoldenrod;
+            }
+            div{
+                width: 200px;
+                height: 200px;
+                background-color: lightslategrey;
+                overflow: scroll;
+            }

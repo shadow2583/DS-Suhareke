@@ -1,0 +1,40 @@
+article > p:first {
+    background-color: blueviolet;
+    text-emphasis-color: blueviolet;
+}
+
+article > div > p {
+    background-color: rgb(0, 255, 76);
+    text-emphasis-color: rgb(255, 238, 2);
+}
+article+p{
+        background-color: rgb(226, 86, 43);
+        text-emphasis-color: rgb(250, 133, 0);
+    }
+article+p+p+{
+        background-color: rgb(20, 157, 199);
+        text-emphasis-color: rgb(43, 214, 226);
+    }
+    
+    article > div > p {
+        background-color: rgb(201, 164, 164);
+        text-emphasis-color: rgba(227, 224, 230, 0);
+    }
+    input:in-range{
+        border:1px gray;
+        background-color: brown;
+    }
+    input:of-range{
+        border:1px gray;
+        background-color: brown;
+    }
+    input:focus{
+        border:10px gray;
+        color: black;
+        background-color: rgb(248, 12, 12);
+    }
+    p:first-of-type{
+        background-color: chocolate;
+    }
+
+

@@ -1,0 +1,17 @@
+.tex-style{
+    color:black;
+    letter-spacing:10px;
+    word-spacing:15px;
+    word-spacing:15px;
+    text-decoration: underline;
+    text-align: center;
+    font-size:60px;
+}
+.text-style{
+    color: green;
+    letter-spacing: 10px;
+    word-spacing: 15px;
+    text-decoration: line-through;
+    text-align: justify;
+    font-size: 40px;
+    }

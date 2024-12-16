@@ -6,7 +6,6 @@
     left: calc(50% - 20px);
     top:50px;
 }
-
 .absolute {
     position:relative;
     width: 200px;
@@ -15,7 +14,6 @@
     left:calc(50% - 20px);
     top: 50px;
 }
-
 .sticky {
     width: 200px;
     height: 200px;
@@ -27,7 +25,7 @@
 .fixed {
     width: 200px;
     height: 200px;
-    border: 1px solid gray;
+    border: 1px solid rgb(0, 0, 0);
     left: calc(50% - 20px);
     top:50px;
 }

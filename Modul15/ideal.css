@@ -1,7 +1,33 @@
-.ul{
-    background-color: chocolate;
+.relative {
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    left: calc(50% - 20px);
+    top:50px;
 }
-.li{
-    background-color:rgb(168, 168, 168);
-   color:rgba(150, 161, 170, 0.795);
+
+.absolute {
+    position:relative;
+    width: 200px;
+    height: 200px;
+    border: 2px solid gray;
+    left:calc(50% - 20px);
+    top: 50px;
+}
+
+.sticky {
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    left: calc(50% - 20px);
+    top:50px;
+}
+
+.fixed {
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    left: calc(50% - 20px);
+    top:50px;
 }
